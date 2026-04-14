@@ -98,20 +98,14 @@
 
     <div class="mb-16">
       <h1 class="text-5xl sm:text-6xl font-bold tracking-tight mb-4">
-        <span class="bg-gradient-to-r from-[#34d399] via-[#a78bfa] to-[#34d399] bg-clip-text text-transparent">
-          fizx
-        </span>
-        <span class="text-[#f0f6fc]">.uk</span>
+        <span class="bg-gradient-to-r from-[#34d399] via-[#a78bfa] to-[#34d399] bg-clip-text text-transparent">fizx.uk</span>
       </h1>
-      <p class="text-lg text-[#6b7a8d] max-w-xl leading-relaxed">
-        Code Assisted Bitcoin &amp; Nostr Projects
-      </p>
     </div>
 
     <!-- Sub-sites grid -->
     <section class="mb-16">
       <h2 class="text-xs font-mono uppercase tracking-widest text-[#6b7a8d] mb-6">
-        Projects
+        Vibe Projects
       </h2>
       <div class="grid sm:grid-cols-2 gap-4">
         {#each sites as site}
