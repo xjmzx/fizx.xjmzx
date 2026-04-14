@@ -194,9 +194,22 @@
 
   <!-- Footer -->
   <footer class="border-t border-[#1e2d3d] px-6 py-5">
-    <div class="max-w-4xl mx-auto flex items-center justify-between text-xs text-[#6b7a8d] font-mono">
+    <div class="max-w-4xl mx-auto flex flex-wrap items-center justify-between gap-y-2 text-xs text-[#6b7a8d] font-mono">
       <span>fizx.uk</span>
-      <span class="text-[#34d399]/60">✦ built with svelte</span>
+      <div class="flex flex-wrap items-center gap-x-3 gap-y-1">
+        {#each [
+          ['https://fizx.uk',         'fizx.uk'],
+          ['https://glimpse.fizx.uk', 'glimpse'],
+          ['https://pulse.fizx.uk',   'pulse'],
+          ['https://ln.fizx.uk',      'ln'],
+          ['https://stakes.fizx.uk',  'stakes'],
+          ['https://sonic.fizx.uk',   'sonic'],
+        ] as [href, label]}
+          <a href={href} target="_blank" rel="noopener"
+             class="hover:text-[#34d399] transition-colors">{label}</a>
+        {/each}
+        <span class="text-[#34d399]/60 ml-1">✦ built with svelte</span>
+      </div>
     </div>
   </footer>
 
