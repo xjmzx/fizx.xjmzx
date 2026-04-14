@@ -46,6 +46,32 @@
         <path d="M13 2L4.5 13.5H11L10 22L20.5 10.5H14L13 2z"/>
       </svg>`,
     },
+    {
+      href: 'https://stakes.fizx.uk',
+      label: 'stakes',
+      desc: 'TruthStakes — Nostr-powered debate game, vote with sats',
+      color: 'emerald',
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="3" x2="12" y2="21"/>
+        <path d="M5 9H2l3 6"/>
+        <path d="M19 9h3l-3 6"/>
+        <line x1="5" y1="9" x2="19" y2="9"/>
+      </svg>`,
+    },
+    {
+      href: 'https://sonic.fizx.uk',
+      label: 'sonic',
+      desc: 'Coming soon',
+      color: 'purple',
+      icon: `<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#a78bfa" stroke-width="2" stroke-linecap="round">
+        <line x1="2" y1="12" x2="2" y2="12"/>
+        <line x1="6" y1="8" x2="6" y2="16"/>
+        <line x1="10" y1="5" x2="10" y2="19"/>
+        <line x1="14" y1="8" x2="14" y2="16"/>
+        <line x1="18" y1="10" x2="18" y2="14"/>
+        <line x1="22" y1="12" x2="22" y2="12"/>
+      </svg>`,
+    },
   ];
 </script>
 
